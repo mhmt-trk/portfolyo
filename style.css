@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    text-align: center;
+    background-color: aqua;
+    
+
+}
+.box ul{
+    display: inline-flex;
+    list-style: none;
+
+}
+
+.box ul li {
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+.box ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.active, .box ul li:hover {
+    background-color: orange;
+    border-radius: 10px;
+
+
+}
+
+.box1 {
+    text-align: right;
+}
+
+.box1 img {
+    width: 50%;
+}
+
+.memo {
+    font-family: ;
+    font-size: 50px;
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 0;
+
+}
